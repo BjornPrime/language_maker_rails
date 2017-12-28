@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @language.name %>
+</p>
+
+<p>
+  <strong>Phonemes:</strong>
+  <%= @language.phonemes %>
+</p>
+
+<p>
+  <strong>Word length:</strong>
+  <%= @language.word_length %>
+</p>
+
+<p>
+  <strong>Orthographic key:</strong>
+  <%= @language.orthographic_key %>
+</p>
+
+<%= link_to 'Edit', edit_language_path(@language) %> |
+<%= link_to 'Back', languages_path %>

@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  phonemes: 
+  word_length: MyString
+  orthographic_key: MyText
+
+two:
+  name: MyString
+  phonemes: 
+  word_length: MyString
+  orthographic_key: MyText
